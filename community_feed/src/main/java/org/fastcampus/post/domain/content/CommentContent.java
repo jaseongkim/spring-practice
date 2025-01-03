@@ -1,10 +1,10 @@
 package org.fastcampus.post.domain.content;
 
-public class commentContent extends Content {
+public class CommentContent extends Content {
 
     private static final int MAX_CONTENT_LENGTH = 100;
 
-    public commentContent(String contentText) {
+    public CommentContent(String contentText) {
         super(contentText);
     }
 

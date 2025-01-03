@@ -52,5 +52,11 @@ public class Comment {
         this.content.updateContent(udpateContent);
     }
 
+    public int getLikeCount() {
+        return likeCount.getCount();
+    }
 
+    public String getContent() {
+        return content.getContentText();
+    }
 }
